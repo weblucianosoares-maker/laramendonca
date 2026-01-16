@@ -93,14 +93,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-sm shadow-md py-3' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#" className="flex items-center gap-3 group">
-          <div className="relative w-11 h-11 rounded-full bg-white shadow-xl flex items-center justify-center overflow-hidden border border-gold/20 transition-transform duration-500 group-hover:scale-105">
-            <img
-              src="/assets/logo.png"
-              alt="Logo LB"
-              className="w-8 h-8 object-contain mix-blend-multiply"
-            />
-          </div>
+        <a href="#" className="flex items-center group">
           <span className={`font-serif text-lg md:text-xl font-bold tracking-tight transition-colors duration-300 ${scrolled ? 'text-charcoal' : 'text-white'}`}>
             Lara Mendonça Bizzotto
           </span>
